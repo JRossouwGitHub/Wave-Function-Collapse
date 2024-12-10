@@ -1,0 +1,12 @@
+Each "cell" needs to be a type and have "available types"
+eg 
+If a cell is undefined or a border, it has all options available
+Grass, Sand, Water
+
+If a border's starting cell has a type, it's available types is reduced
+eg
+If a border cell has Water next to it, remove Grass from it's available types
+
+THEN
+Cells can only choose from their available types
+In this case, Sand and Water
